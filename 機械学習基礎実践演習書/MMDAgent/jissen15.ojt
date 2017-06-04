@@ -1,0 +1,40 @@
+# number of voices
+5
+# voice names
+Voice\mei\mei_normal.htsvoice
+Voice\mei\mei_angry.htsvoice
+Voice\mei\mei_bashful.htsvoice
+Voice\mei\mei_happy.htsvoice
+Voice\mei\mei_sad.htsvoice
+# number of speaking styles
+9
+# speaking style names, interpolation weight, and synthesis parameter
+mei_voice_normal   1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.55 1.0
+mei_voice_angry    0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  1.1 -0.5  0.55 1.1
+mei_voice_bashful  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  1.0  0.5  0.55 0.9
+mei_voice_happy    0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  1.2  0.5  0.55 1.0
+mei_voice_sad      0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  1.0 -0.5  0.55 0.9
+mei_voice_fast     1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  2.0  1.0  0.55 1.0
+mei_voice_slow     1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  0.5  1.0  0.55 1.0
+mei_voice_high     1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  4.0  0.55 1.0
+mei_voice_low      1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0 -2.0  0.55 1.0
+#                   ^    ^    ^    ^    ^    ^    ^    ^    ^    ^    ^    ^    ^    ^    ^    ^    ^    ^    ^
+#                   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    +-- enhancement (default:1.0, 1.0<: enhance)
+#                   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    +-- gender parameter (default: 0.55, 0.55>: female-like, 0.55<:male-like)
+#                   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    +-- pitch shift in half tone (default: 0.0)
+#                   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    +-- speaking rate (default: 1.0, 1.0>: slow, 1.0<: fast)
+#                   |    |    |    |    |    |    |    |    |    |    |    |    |    |    +-- weight for the duration model of the 5th voice (mei_sad)
+#                   |    |    |    |    |    |    |    |    |    |    |    |    |    +--------weight for the duration model of the 4th voice (mei_happy)
+#                   |    |    |    |    |    |    |    |    |    |    |    |    +-------------weight for the duration model of the 3th voice (mei_bashful)
+#                   |    |    |    |    |    |    |    |    |    |    |    +------------------weight for the duration model of the 2nd voice (mei_angry)
+#                   |    |    |    |    |    |    |    |    |    |    +-----------------------weight for the duration model of the 1st voice (mei_normal)
+#                   |    |    |    |    |    |    |    |    |    +-- weight for the F0 (fundamental frequency) model of the 5th voice (mei_sad)
+#                   |    |    |    |    |    |    |    |    +--------weight for the F0 (fundamental frequency) model of the 4th voice (mei_happy)
+#                   |    |    |    |    |    |    |    +-------------weight for the F0 (fundamental frequency) model of the 3th voice (mei_bashful)
+#                   |    |    |    |    |    |    +------------------weight for the F0 (fundamental frequency) model of the 2nd voice (mei_angry)
+#                   |    |    |    |    |    +-----------------------weight for the F0 (fundamental frequency) model of the 1st voice (mei_normal)
+#                   |    |    |    |    +-- weight for the spectrum model of the 5th voice (mei_sad)
+#                   |    |    |    +--------weight for the spectrum model of the 4th voice (mei_happy)
+#                   |    |    +-------------weight for the spectrum model of the 3th voice (mei_bashful)
+#                   |    +------------------weight for the spectrum model of the 2nd voice (mei_angry)
+#                   +-----------------------weight for the spectrum model of the 1st voice (mei_normal)

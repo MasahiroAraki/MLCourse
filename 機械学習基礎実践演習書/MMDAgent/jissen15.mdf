@@ -1,0 +1,123 @@
+# ----------------------------------------------------------------- #
+#           MMDAgent "Sample Script"                                #
+#           released by MMDAgent Project Team                       #
+#           http://www.mmdagent.jp/                                 #
+# ----------------------------------------------------------------- #
+#                                                                   #
+#  Copyright (c) 2009-2013  Nagoya Institute of Technology          #
+#                           Department of Computer Science          #
+#                                                                   #
+# Some rights reserved.                                             #
+#                                                                   #
+# This work is licensed under the Creative Commons Attribution 3.0  #
+# license.                                                          #
+#                                                                   #
+# You are free:                                                     #
+#  * to Share - to copy, distribute and transmit the work           #
+#  * to Remix - to adapt the work                                   #
+# Under the following conditions:                                   #
+#  * Attribution - You must attribute the work in the manner        #
+#    specified by the author or licensor (but not in any way that   #
+#    suggests that they endorse you or your use of the work).       #
+# With the understanding that:                                      #
+#  * Waiver - Any of the above conditions can be waived if you get  #
+#    permission from the copyright holder.                          #
+#  * Public Domain - Where the work or any of its elements is in    #
+#    the public domain under applicable law, that status is in no   #
+#    way affected by the license.                                   #
+#  * Other Rights - In no way are any of the following rights       #
+#    affected by the license:                                       #
+#     - Your fair dealing or fair use rights, or other applicable   #
+#       copyright exceptions and limitations;                       #
+#     - The author's moral rights;                                  #
+#     - Rights other persons may have either in the work itself or  #
+#       in how the work is used, such as publicity or privacy       #
+#       rights.                                                     #
+#  * Notice - For any reuse or distribution, you must make clear to #
+#    others the license terms of this work. The best way to do this #
+#    is with a link to this web page.                               #
+#                                                                   #
+# See http://creativecommons.org/ for details.                      #
+# ----------------------------------------------------------------- #
+
+# Cartoon rendering
+
+use_cartoon_rendering=true
+use_mmd_like_cartoon=true
+cartoon_edge_width=0.35
+cartoon_edge_step=1.2
+cartoon_edge_selected_color=1.0,0.0,0.0,1.0
+
+# Camera
+
+camera_rotation=0.0,0.0,0.0
+camera_transition=0.0,13.0,0.0
+camera_distance=100.0
+camera_fovy=16.0
+
+# Stage
+
+stage_size=25.0,25.0,40.0
+
+# Fps
+
+show_fps=false
+fps_position=-2.5,22.0,3.0
+
+# Window
+
+window_size=600,600
+full_screen=false
+
+# Log
+
+log_size=80,30
+log_position=-17.5,3.0,-20.0
+log_scale=1.0
+
+# Light
+
+light_direction=0.5,1.0,0.5,0.0
+light_intensity=0.6
+light_color=1.0,1.0,1.0
+
+# Campus
+
+campus_color=0.0,0.0,0.2
+
+# OpenGL
+
+max_multi_sampling=4
+
+# Motion
+
+motion_adjust_time=0.0
+lypsync_priority=100.0
+
+# Bullet Physics
+
+bullet_fps=120
+gravity_factor=10.0
+
+# User interface
+
+rotate_step=4.5
+translate_step=0.5
+distance_step=4.0
+fovy_step=1.0
+
+# Shadow mapping
+
+use_shadow_mapping=false
+shadow_mapping_texture_size=1024
+shadow_mapping_self_density=1.0
+shadow_mapping_floor_density=0.5
+shadow_mapping_light_first=true
+
+# Comment
+
+display_comment_time=0.0
+
+# Model
+
+max_num_model=3
