@@ -29,12 +29,13 @@ print(sess.run(hello))
 
 1. Anaconda Promptを開く
 1. activate tensorflow
-1. http://www.lfd.uci.edu/%7Egohlke/pythonlibs/ から
+1. http://www.lfd.uci.edu/%7Egohlke/pythonlibs/ から  
 
-** numpy-1.13.1+mkl-cp35-cp35m-win_amd64.whl
-** scipy-0.19.1-cp35-cp35m-win_amd64.whl
+numpy-1.13.1+mkl-cp35-cp35m-win_amd64.whl  
 
-   をダウンロードし、Cドライブ直下に置く
+scipy-0.19.1-cp35-cp35m-win_amd64.whl  
+
+をダウンロードし、Cドライブ直下に置く
 
 1. pip install --ignore-installed --upgrade C:\numpy-1.13.1+mkl-cp35-cp35m-win_amd64.whl
 1. pip install --ignore-installed --upgrade C:\scipy-0.19.1-cp35-cp35m-win_amd64.whl
