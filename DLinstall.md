@@ -18,7 +18,8 @@ https://www.tensorflow.org/install/install_windows)
 1. Jupyter notebookを起動
 1. カーネルtensorflowでノートを作成し、以下のサンプルスクリプトを実行 
 
-```import tensorflow as tf
+```
+import tensorflow as tf
 hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 print(sess.run(hello))
@@ -41,5 +42,7 @@ print(sess.run(hello))
 1. Jupyter notebookを起動
 1. カーネルtensorflowでノートを作成し、以下のサンプルスクリプトを実行 
 
-> import keras
-> keras.__version__
+```
+import keras
+keras.__version__
+```
