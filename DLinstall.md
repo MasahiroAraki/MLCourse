@@ -3,7 +3,8 @@
 ## Tensorflow
 
 基本的には、公式サイトのインストール手順(
-https://www.tensorflow.org/install/install_windows)に従います。
+https://www.tensorflow.org/install/install_windows) 
+に従います。
 
 64bitOSの場合で説明しますので、32bitOSの場合はダウンロードするファイルを適当に
 読み替えてください。
@@ -17,10 +18,11 @@ https://www.tensorflow.org/install/install_windows)に従います。
 1. Jupyter notebookを起動
 1. カーネルtensorflowでノートを作成し、以下のサンプルスクリプトを実行 
 
-> import tensorflow as tf
-> hello = tf.constant('Hello, TensorFlow!')
-> sess = tf.Session()
-> print(sess.run(hello))
+'''import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+print(sess.run(hello))
+'''
 
 ## Keras
 
