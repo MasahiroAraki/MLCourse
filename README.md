@@ -6,5 +6,6 @@
 
 ## 更新情報
 
-* 7/18(火) 分の資料をuploadしました。(2017/7/14)
+* Tensorflow, Kerasの[インストールガイド](https://github.com/MasahiroAraki/MLCourse/blob/master/DLinstall.md)をuploadしました。(2017/7/19)
+* 7/21(金) 分の資料をuploadしました。(2017/7/20)
 
