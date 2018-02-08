@@ -4,7 +4,7 @@
 
 * [内容紹介ページ](https://www.kit.ac.jp/events/events180119/)
 
-* [1/26 資料掲載](https://github.com/MasahiroAraki/MLCourse/tree/master/2018%E5%85%A5%E9%96%80%E7%89%88-1)
+* [2/9 資料掲載](https://github.com/MasahiroAraki/MLCourse/tree/master/2018%E5%85%A5%E9%96%80%E7%89%88-2)
 
 ## 2018年 「機械学習講座　概要版」（終了しました）
 
