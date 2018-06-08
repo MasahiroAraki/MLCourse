@@ -4,14 +4,14 @@ clear;
 im = im2double(imread('test1.pgm'));
 // 2次元配列 im のサイズ取得
 [h w] = size(im);
-// 結果格納用の配列 resultim を用意
-resultim1 = ones(im);
-resultim2 = ones(im);
+// 結果格納用の配列 resultim1,2 を用意
+resultim1 = zeros(im);
+resultim2 = [];
 // Sobelフィルタの定義
 dx=[-1,0,1; -2,0,2; -1,0,1];
 dy=[1,2,1; 0,0,0; -1,-2,-1];
 
-// フィルタ適用
+// Sobelフィルタ適用
 for y = 2:h-1
     for x = 2:w-1
         resultim1(y, x) = sqrt(sum(im(y-1:y+1, x-1:x+1) .* dx)^2+..
@@ -20,12 +20,11 @@ for y = 2:h-1
 end
 
 // maxプーリング
-for y = 2:h-1
-    for x = 2:w-1
-        resultim2(y, x) = max(resultim1(y-1:y+1, x-1:x+1));
+for y = 1:2:h-1
+    for x = 1:2:w-1
+        resultim2(ceil(y/2), ceil(x/2)) = max(resultim1(y:y+1, x:x+1));
     end
 end
 
-// 結果の表示とファイルへの出力
-imshow([im, resultim1, resultim2]);
-imwrite([im, resultim1, resultim2], 'out.png');
+// 結果の表示
+imshow(resultim2);
