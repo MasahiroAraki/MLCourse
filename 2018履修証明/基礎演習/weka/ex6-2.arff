@@ -1,0 +1,13 @@
+@relation ex6-2
+@attribute x1 real
+@attribute x2 real
+@attribute class {1,-1}
+@data
+1,4,1
+2,3,1
+4,3,1
+5,4,1
+2,1,-1
+3,2,-1
+3,3,-1
+4,1,-1
