@@ -1,7 +1,25 @@
-# 機械学習 講習会資料
+## 機械学習講座資料
 
-## 2018年度 「機械学習講座　概要版」
+https://masahiroaraki.github.io/MLCourse/
 
-* [講義資料](https://github.com/MasahiroAraki/MLCourse/tree/master/2018%e6%a6%82%e8%a6%81%e7%89%88)
+2019年度 KITリカレント教育プログラム「機械学習・IoT・ビッグデータ技術履修コース」で実施する「機械学習基礎」「機械学習応用」に関するページです。
 
-* [開催概要](https://www.kit.ac.jp/events/events181026/#event2)
+### テキスト
+
+荒木雅弘: フリーソフトではじめる機械学習入門（第2版）, 森北出版, 2018. <a href="https://www.morikita.co.jp/data/mkj/085212mkj.pdf">内容見本</a>
+
+### 「機械学習基礎」
+
+機械学習の全体像および基本的な手順を学んだ後、基礎的な識別手法および回帰手法を学びます。GUIで操作ができるマイニングツールWekaで機械学習の手順や主要なパラメータを確認し、Pythonで機械学習ライブラリScikit-learnを使用して実習を行います。
+
+|講習日|教科書|講義|実習|
+|------|------|----|----|
+|5/10 AM | 1章 | 全体像 | Python入門、Jupyter Notebook|
+|5/10 PM | 2章 | 手順 | scikit-learn (kNN) |
+|5/17 AM | 3章 | 概念学習 | 決定木 |
+|5/17 PM | 4章,5章 | 識別 | Naive Bayes、ロジスティック識別|
+|5/24 AM | 6章 | 回帰 | 線形回帰|
+|5/24 PM | 7章 | SVM | SVM |
+|5/31 AM | 8章 | NN | NN|
+|5/31 PM | 事例紹介 | -- |
+
