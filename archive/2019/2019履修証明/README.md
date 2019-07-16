@@ -1,8 +1,5 @@
 ## 機械学習講座資料
 
-機械学習講座 概要版(7/17東京 7/19大阪)の資料は
-<a href="https://masahiroaraki.github.io/MLCourse/gaiyou/">こちら</a>
-
 https://masahiroaraki.github.io/MLCourse/
 
 2019年度 KITリカレント教育プログラム「機械学習・IoT・ビッグデータ技術履修コース」で実施する「機械学習基礎」「機械学習応用」に関するページです。
