@@ -17,13 +17,6 @@
 
 - テキスト: 荒木雅弘著「フリーソフトではじめる機械学習入門 (第2版) Python/Wekaで実践する理論とアルゴリズム」（森北出版 2018年）<a href="https://www.morikita.co.jp/books/book/3274">（出版社のページ）</a>
 
-## 2019年度機械学習講座資料
+## 実施済みの講習等の資料
 
-* 機械学習講座 入門版の資料は
-<a href="https://github.com/MasahiroAraki/MLCourse/tree/master/nyuumon">こちら</a>
-
-* 機械学習講座 概要版の資料は
-<a href="https://github.com/MasahiroAraki/MLCourse/tree/master/gaiyou">こちら</a>
-
-* 実施済みの講習等の資料は
 <a href="https://github.com/MasahiroAraki/MLCourse/tree/master/archive">こちら</a>
