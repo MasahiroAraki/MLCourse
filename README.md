@@ -4,10 +4,10 @@
   - Google アカウントを作成し、<a href="https://tutorials.chainer.org/ja/tutorial.html">PFN社 Chainerチュートリアル</a>の「1.はじめに」と「2. Python入門」を済ませておいてください。これらの知識は講義の復習やレポート作成の際に必要になります。なお、本講座ではChainerは学習対象ではありません。深層学習ライブラリはKerasを用います。
 
 - 機械学習基礎  5/13(水)、5/20(水)、5/27(水)、6/3(水) 9:20-12:30
-  - 概要、機械学習の基本的な手順
-  - 決定木、単純ベイズ識別
-  - ロジスティク識別、回帰
-  - サポートベクトルマシン、ニューラルネット
+  - 5/13(水): <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/01_Introduction.ipynb">概要</a>、 <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/02_MLflow.ipynb">機械学習の基本的な手順</a>
+  - 5/20(水): 決定木、単純ベイズ識別
+  - 5/27(水): ロジスティク識別、回帰
+  - 6/3(水): サポートベクトルマシン、ニューラルネット
 
 - 機械学習応用  6/10(水)、6/17(水)、6/24(水)、7/1(水) 9:20-12:30
   - 深層学習、アンサンブル学習
