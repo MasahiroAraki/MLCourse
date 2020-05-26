@@ -6,7 +6,7 @@
 - 機械学習基礎  5/13(水)、5/20(水)、5/27(水)、6/3(水) 9:20-12:30
   - 5/13(水): <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/01_Introduction.ipynb">概要</a>、 <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/02_MLflow.ipynb">機械学習の基本的な手順</a>
   - 5/20(水): <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap03.pdf">決定木</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/03_decisionTree.ipynb">note</a>)、<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap04.pdf">単純ベイズ識別</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/04_statistical.ipynb">note</a>)
-  - 5/27(水): ロジスティク識別、回帰
+  - 5/27(水): <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap05.pdf">ロジスティク識別</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/05_generative-disciminative.ipynb">note</a>)、<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap06.pdf">回帰</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/06_regression.ipynb">note</a>)
   - 6/3(水): サポートベクトルマシン、ニューラルネット
 
 - 機械学習応用  6/10(水)、6/17(水)、6/24(水)、7/1(水) 9:20-12:30
