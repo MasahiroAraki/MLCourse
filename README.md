@@ -13,7 +13,7 @@
   - 6/10(水): <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap09.pdf">深層学習</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/09_dnn.ipynb">note</a>)、<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap10.pdf">アンサンブル学習</a>(<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/10_ensemble.ipynb">note</a>)
   - 6/17(水): <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap11.pdf">モデル推定<a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/11_model.ipynb">note</a>)、<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap12.pdf">パターンマイニング</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/12_apriori.ipynb">note</a>)
   - 6/24(水): <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap13.pdf">系列識別</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/13_struct.ipynb">note</a>)、<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap14.pdf">半教師あり学習</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/14_semi.ipynb">note</a>)
-  - 7/1(水):<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap15.pdf">強化学習</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/15_reinforce.ipynb">note</a>)
+  - 7/1(水): <a href="https://github.com/MasahiroAraki/MLCourse/blob/master/slide/chap15.pdf">強化学習</a> (<a href="https://github.com/MasahiroAraki/MLCourse/blob/master/15_reinforce.ipynb">note</a>)
 
 - テキスト: 荒木雅弘著「フリーソフトではじめる機械学習入門 (第2版) Python/Wekaで実践する理論とアルゴリズム」（森北出版 2018年）<a href="https://www.morikita.co.jp/books/book/3274">（出版社のページ）</a>
 
